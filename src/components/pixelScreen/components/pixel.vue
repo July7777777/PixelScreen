@@ -16,10 +16,10 @@
     :style="{
       backgroundImage: `linear-gradient(
       90deg,
-      rgb(${rgb?.red || 255}, 0, 0) 33.33%,
-      rgb(0, ${rgb?.green || 255}, 0) 33.33%,
-      rgb(0, ${rgb?.green || 255}, 0) 66.66%,
-      rgb(0, 0, ${rgb?.blue || 255}) 66.66%
+      rgb(${rgb?.red || 0}, 0, 0) 33.33%,
+      rgb(0, ${rgb?.green || 0}, 0) 33.33%,
+      rgb(0, ${rgb?.green || 0}, 0) 66%,
+      rgb(0, 0, ${rgb?.blue || 0}) 66%
     )`
     }"
   />
